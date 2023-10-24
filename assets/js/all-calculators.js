@@ -30,6 +30,12 @@ var allCalculators = [
         "image": "/auto-loan-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Loan Calculator",
+        "description": "Free loan calculator helps determine repayment plans, the interest cost, the amortization schedule of conventional amortized loans, deferred payment loans, and bonds.",
+        "uri": "/loan-calculator/",
+        "image": "/loan-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Dice Roller",
         "description": "This online dice roller uses random number generation to create a digital dice rolling experience with all sorts of beneficial uses.",
         "uri": "/dice-roller/",
@@ -96,6 +102,12 @@ var allCalculators = [
         "image": "/percentage-calculator-online/assets/images/icon-96.png"
     },
     {
+        "title": "GPA Calculator",
+        "description": "This GPA calculator computes your GPA and creates a report based on your course credits and grade. Both numerical and letter grades are accepted.",
+        "uri": "/gpa-calculator/",
+        "image": "/gpa-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Standard Deviation Calculator",
         "description": "Given a discrete data set, the calculator calculates the mean, variance, and standard deviation of a sample or a population and shows all the intermediate steps of calculations.",
         "uri": "/standard-deviation-calculator/",
@@ -106,6 +118,12 @@ var allCalculators = [
         "description": "Calculator for mean, median, and mode in statistics. Use this calculator to get the mean, median, mode, range, and the average for any data set.",
         "uri": "/mean-median-mode-calculator/",
         "image": "/mean-median-mode-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Quadratic Formula Calculator",
+        "description": "Quadratic formula calculator solves quadratic equations using the quadratic formula. Quadratic equations are solved for real roots and complex roots.",
+        "uri": "/quadratic-formula-calculator/",
+        "image": "/quadratic-formula-calculator/assets/images/icon-96.png"
     },
     {
         "title": "Numbers to Words Converter",
@@ -124,6 +142,12 @@ var allCalculators = [
         "description": "Based on many famous equations, this free ideal weight calculator determines an optimal healthy body weight based on age, gender, and height.",
         "uri": "/ideal-weight-calculator/",
         "image": "/ideal-weight-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Height Calculator",
+        "description": "Based on a linear regression study, this free growth calculator estimates a child&#x27;s growth as an adult in the future. It can also be converted between several height units.",
+        "uri": "/height-calculator/",
+        "image": "/height-calculator/assets/images/icon-96.png"
     },
     {
         "title": "Salary Calculator",
@@ -390,6 +414,12 @@ var allCalculators = [
         "image": "/tip-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Interest Rate Calculator",
+        "description": "Free online calculator to estimate the interest rate and total interest cost of an amortized loan with a fixed monthly repayment amount.",
+        "uri": "/interest-rate-calculator/",
+        "image": "/interest-rate-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Mixed Fraction Calculator",
         "description": "Mixed number to improper fraction calculator to convert mixed numbers, consisting of a whole number and a proper fraction, to improper fractions.",
         "uri": "/mixed-fraction-calculator/",
@@ -400,6 +430,12 @@ var allCalculators = [
         "description": "With the height converter tool, you can easily convert height to cm. Convert between US units and metric units.",
         "uri": "/height-converter/",
         "image": "/height-converter/assets/images/icon-96.png"
+    },
+    {
+        "title": "Work Hours Calculator",
+        "description": "Work hours calculator helps employees accurately calculate the number of hours worked each week with settings to account for breaks, hourly rounding, and military time. ",
+        "uri": "/work-hours-calculator/",
+        "image": "/work-hours-calculator/assets/images/icon-96.png"
     },
     {
         "title": "Fraction to percent calculator",
@@ -444,6 +480,18 @@ var allCalculators = [
         "image": "/circle-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Mortgage Calculator",
+        "description": "Calculate your monthly payment, total property ownership costs, and amortization timeline with options for taxes, PMI, HOA, and early payments with our free mortgage calculator.",
+        "uri": "/mortgage-calculator/",
+        "image": "/mortgage-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Personal Loan Calculator",
+        "description": "After factoring the fees, insurance, and interest of a personal loan, this free personal loan calculator computes the monthly payment, true loan cost, and Annual percentage rate (APR).",
+        "uri": "/personal-loan-calculator/",
+        "image": "/personal-loan-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Equivalent Fractions Calculator",
         "description": "Equivalent fractions calculator to find equivalent fractions of positive and negative mixed numbers, integers, proper and improper fractions.",
         "uri": "/equivalent-fractions-calculator/",
@@ -474,6 +522,12 @@ var allCalculators = [
         "image": "/meters-to-feet-converter/assets/images/icon-96.png"
     },
     {
+        "title": "Mortgage Payment Calculator",
+        "description": "Free mortgage payment calculator helps assess possibilities for paying off a mortgage sooner, such as additional payments, bi-weekly payments, or paying off the loan entirely.",
+        "uri": "/mortgage-payment-calculator/",
+        "image": "/mortgage-payment-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Hex Calculator",
         "description": "Online hex calculator performs hex math operations and conversions. Hex addition, hex subtraction, hex multiplication, hex division became fast &amp; easy",
         "uri": "/hex-calculator/",
@@ -490,6 +544,18 @@ var allCalculators = [
         "description": "PEMDAS calculator solves mathematical expressions with the order of operations - brackets, exponents, multiplication, division, addition, and subtraction.",
         "uri": "/math-equation-solver/",
         "image": "/math-equation-solver/assets/images/icon-96.png"
+    },
+    {
+        "title": "APR Calculator",
+        "description": "APR calculator that uses the formula APR &#x3D; ((I + F) / P) / N can help borrowers understand the true cost of loans and how to calculate APR on a loan.",
+        "uri": "/apr-calculator/",
+        "image": "/apr-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Kinetic Energy Calculator",
+        "description": "Kinetic energy calculator easily finds kinetic energy, mass or velocity with the kinetic energy formula KE &#x3D; 1/2 mv². Easy to use KE calculator.",
+        "uri": "/kinetic-energy-calculator/",
+        "image": "/kinetic-energy-calculator/assets/images/icon-96.png"
     },
     {
         "title": "Cube Root Calculator",
@@ -550,6 +616,12 @@ var allCalculators = [
         "description": "The Army Body Fat Calculator provides users with an accurate estimate of their body fat percentage using the standards of the U.S. Army.",
         "uri": "/army-body-fat-calculator/",
         "image": "/army-body-fat-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "401K Calculator",
+        "description": "Free 401k retirement calculator that uses the formula FV &#x3D; (PV + TC) + (1 + R)n can help users plan for retirement and calculate 401k growth.  ",
+        "uri": "/401k-calculator/",
+        "image": "/401k-calculator/assets/images/icon-96.png"
     },
     {
         "title": "Car Loan Calculator",
@@ -648,6 +720,12 @@ var allCalculators = [
         "image": "/refinance-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Annuity Calculator",
+        "description": "Annuity calculator that uses the formula FV &#x3D; PV (1 + R)^n to help investors calculate annuity growth over time and make retirement decisions.",
+        "uri": "/annuity-calculator/",
+        "image": "/annuity-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Credit Card Payoff Calculator",
         "description": "Free online credit card calculator that provides valuable information to users, including how to minimize debt and a credit payment calculator with recommended payment amounts.",
         "uri": "/credit-card-payoff-calculator/",
@@ -664,5 +742,17 @@ var allCalculators = [
         "description": "This easy home loan calculator will help you calculate monthly mortgage payments. The mortgage calculator is perfect for both fixed-rate or adjustable-rate home loans.",
         "uri": "/home-loan-calculator/",
         "image": "/home-loan-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "EMI Calculator",
+        "description": "Manage loans effectively with an EMI calculator. Calculate EMIs, total interest, and assess affordability. Make informed decisions and save money.",
+        "uri": "/emi-calculator/",
+        "image": "/emi-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "SIP calculator",
+        "description": "Calculate SIP returns, growth &amp; wealth accumulation with confidence using our SIP calculator. Make informed investment decisions.",
+        "uri": "/sip-calculator/",
+        "image": "/sip-calculator/assets/images/icon-96.png"
     }
 ];
