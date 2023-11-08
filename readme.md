@@ -12,9 +12,8 @@ These calculators find the distance between two points on a 2D plane, in a 3D sp
 3. Activate the [Distance Calculator](https://www.calculator.io/distance-calculator/ "Distance Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_distance_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Distance Calculator to the sidebar through the `Appearance -> Widgets -> Distance Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_distance_calculator(); ?>` to your template where you would like the Distance Calculator to appear.
+* Add the shortcode `[ci_distance_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_distance_calculator(); ?>` to your template where you would like the Distance Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
