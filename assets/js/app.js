@@ -104,12 +104,12 @@ window.addEventListener('keydown', (e) => {
 	if((e.metaKey && e.key === 'k') || (e.ctrlKey && e.key === 'k')) {
 		closeAll();
 		$('.modal-search__input').focus();
-		MODAL_WINDOW.classList.add(`modal-window--active`) 
+		MODAL_WINDOW.classList.add(`modal-window--active`)
 		$('.modal-search').classList.toggle(`modal-search--active`);
 	}
 
 	if(!MODAL_WINDOW) return;
-	
+
 	if(e.key === 'ArrowUp') {
 		let listItem = [...MODAL_SEARCH_LIST_CONTENT.children]
 		if(focusedElement - 1 < 0) {
@@ -120,7 +120,7 @@ window.addEventListener('keydown', (e) => {
 		listItem[focusedElement]?.focus()
 		// listItem[focusedElement].scrollIntoView(true)
 	}
-	
+
 	if(e.key === 'ArrowDown') {
 		let listItem = [...MODAL_SEARCH_LIST_CONTENT.children]
 		listItem[focusedElement]?.focus()
@@ -135,8 +135,8 @@ window.addEventListener('keydown', (e) => {
 if(MODAL_WINDOW) {
 	MODAL_WINDOW.addEventListener('click', (e) => {
 		if(e.target.classList.contains('modal-window')) {
-			MODAL_WINDOW.classList.remove(`modal-window--active`) 
-			MODAL_WINDOW.classList.remove(`modal-window--active-mini`) 
+			MODAL_WINDOW.classList.remove(`modal-window--active`)
+			MODAL_WINDOW.classList.remove(`modal-window--active-mini`)
 			closeAll()
 		}
 	})
@@ -146,9 +146,9 @@ if(MODAL_OPENERS.length > 0) {
 		MODAL_OPENER.addEventListener('click', () => {
 			const MODAL_ID = MODAL_OPENER.getAttribute('data-modal')
 			const MODAL = document.querySelector(`.modal-${MODAL_ID}`)
-			
+
 			closeAll();
-			
+
 			if(MODAL_ID !== 'lang' && MODAL_ID !== 'theme') MODAL_WINDOW.classList.toggle(`modal-window--active`)
 			else isOpenPopupHeader = true
 
@@ -168,12 +168,12 @@ if(MODAL_CLOSERS.length > 0) {
 		MODAL_CLOSER.addEventListener('click', () => {
 			const MODAL_ID = MODAL_CLOSER.getAttribute('data-modal')
 			const MODAL = document.querySelector(`.modal-${MODAL_ID}`)
-			
+
 			closeAll();
-			
+
 			if(MODAL_ID !== 'lang' && MODAL_ID !== 'theme') MODAL_WINDOW.classList.toggle(`modal-window--active`)
 			else isOpenPopupHeader = true
-			
+
 			MODAL.classList.remove(`modal-${MODAL_ID}--active`)
 		})
 	})
@@ -227,7 +227,7 @@ system.forEach((i) =>
 	}),
 );
 
-// SEARCH 
+// SEARCH
 const JSON_CALCULATORS = allCalculators;
 
 const MODAL_SEARCH = document.querySelector('.modal-search__input')
@@ -249,15 +249,15 @@ MODAL_SEARCH.addEventListener('input', (e) => {
 				let calculatorWrapper = document.createElement('a')
 				calculatorWrapper.classList.add('modal-search-item')
 				calculatorWrapper.href = CALCULATOR.uri
-				
+
 				let calculatorImg = document.createElement('img')
 				calculatorImg.classList.add('modal-search-item__img')
 				calculatorImg.src = CALCULATOR.image
-				
+
 				let calculatorTitle = document.createElement('span')
 				calculatorTitle.classList.add('modal-search-item__text')
 				calculatorTitle.innerText = CALCULATOR.title
-				
+
 				calculatorWrapper.append(calculatorImg, calculatorTitle)
 				MODAL_SEARCH_LIST_CONTENT.append(calculatorWrapper)
 			})
@@ -273,7 +273,7 @@ MODAL_SEARCH.addEventListener('input', (e) => {
 	}
 })
 
-// LANG 
+// LANG
 const LANG_SELECTS = document.querySelectorAll('.header-lang__select')
 
 let langIsEng = true
@@ -311,4 +311,13 @@ window.now = function (suffix = 0){
 	let date = new Date();
 	date.setDate(date.getDate() + suffix);
 	return ("0" + date.getHours()).slice(-2) + ':' + ("0" + date.getMinutes()).slice(-2) + ':' + ("0" + date.getSeconds()).slice(-2)
+}
+
+if(window.innerWidth < 1024){
+	$$('.calculator-content .button--primary').forEach((button) => {
+		button.addEventListener('click', () => {
+			let scrollValue = _('result-container').offsetTop;
+			window.scrollTo({ top: scrollValue, behavior: 'smooth'});
+		})
+	});
 }
