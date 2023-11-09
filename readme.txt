@@ -13,6 +13,8 @@ These calculators find the distance between two points on a 2D plane, in a 3D sp
 
 These calculators find the distance between two points on a 2D plane, in a 3D space, as well as along the surface of the Earth with Lambert’s formulas.
 
+[Distance Calculator Homepage](https://www.calculator.io/distance-calculator/ "Distance Calculator Homepage")
+
 __Shortcode__
 
 Use the Distance Calculator shortcode:
