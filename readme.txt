@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 These calculators find the distance between two points on a 2D plane, in a 3D space, as well as along the surface of the Earth with Lambert’s formulas.
 
-== Description ==
-
-These calculators find the distance between two points on a 2D plane, in a 3D space, as well as along the surface of the Earth with Lambert’s formulas.
-
 [https://www.calculator.io/distance-calculator/](https://www.calculator.io/distance-calculator/)
 
-__Distance Calculator Shortcode__
+== Usage ==
+
+Add the Distance Calculator shortcode to your page, post or sidebar:
 
 `[ci_distance_calculator]`
 
-== Installation ==
+Add the following code to your template where you would like the Distance Calculator to appear:
 
-1. Upload the /ci_distance_calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the [Distance Calculator](https://www.calculator.io/distance-calculator/ "Distance Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-
-== Distance Calculator Usage ==
-
-* Add the shortcode `[ci_distance_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_distance_calculator(); ?>` to your template where you would like the Distance Calculator to appear.
+`<?php display_ci_distance_calculator(); ?>`
 
 == Screenshots ==
 
 1. The Distance Calculator Input Form.
 2. The Distance Calculator Calculation Results.
 
-== Libraries used in Distance Calculator ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the Distance Calculator /ci_distance_calculator/ folder to the /wp-content/plugins/ directory.
+2. Activate the Distance Calculator plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of Distance Calculator

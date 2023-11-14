@@ -216,6 +216,12 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Investment Calculator",
+        "description": "This free investment calculator considers the initial and ending balances, return rate, and investment time when evaluating various investment circumstances.",
+        "uri": "/investment-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Simple Interest Calculator",
         "description": "The simple interest calculator can be used to provide a quick and accurate calculation of interest assessed on a loan or investment.",
         "uri": "/simple-interest-calculator/",
@@ -264,6 +270,12 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Triangle Calculator",
+        "description": "The triangle calculator finds all triangle measurements – side lengths, triangle angles, area, perimeter, semiperimeter, heights, medians, inradius, and circumradius.",
+        "uri": "/triangle-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "BAC Calculator",
         "description": "The Blood Alcohol Concentration Calculator provides an accurate estimate of your current blood alcohol concentration based on several key inputs and personal characteristics. ",
         "uri": "/bac-calculator/",
@@ -279,6 +291,12 @@ var allCalculators = [
         "title": "Percentage Change Calculator",
         "description": "Percentage change calculator to find percentage increase or decrease, calculate the rate of change and calculate price change over a period of time.",
         "uri": "/percentage-change-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Volume Calculator",
+        "description": "The online volume calculator performs calculations for 11 different geometric shapes. The tool supports different units of measurement and demonstrates the solution steps.",
+        "uri": "/volume-calculator/",
         "image": "../images/icon-96.png"
     },
     {
@@ -303,6 +321,12 @@ var allCalculators = [
         "title": "GCF Calculator",
         "description": "Greatest common factor calculator finds the GCF of a set of numbers and all factors of these numbers. Solutions with steps for finding the GCF are also demonstrated.",
         "uri": "/gcf-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Financial Calculator",
+        "description": "You can use free financial calculators online to estimate your investments’ future value (FV), compounding periods (N), interest rate (I/Y), periodic payment (PMT), and present value (PV).",
+        "uri": "/financial-calculator/",
         "image": "../images/icon-96.png"
     },
     {
@@ -348,9 +372,27 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Area Calculator",
+        "description": "Area calculator to find the surface area of the following shapes - rectangle, triangle, circle, sector, ellipse, trapezoid, and parallelogram.",
+        "uri": "/area-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Interest Calculator",
+        "description": "With this free interest calculator you can compute accumulation schedules, final balances, and accrued interest.",
+        "uri": "/interest-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Average Calculator",
         "description": "The average calculator helps find a data set&#x27;s average or arithmetic mean. It also shows the calculation steps and other important statistics.",
         "uri": "/average-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Concrete Calculator",
+        "description": "Estimate the right amount of concrete for home improvement projects. Concrete calculators do the math to figure out how many bags of mix to buy for driveway slabs, deck footings, stairs, and DIY projects.",
+        "uri": "/concrete-calculator/",
         "image": "../images/icon-96.png"
     },
     {
@@ -417,6 +459,12 @@ var allCalculators = [
         "title": "Interest Rate Calculator",
         "description": "Free online calculator to estimate the interest rate and total interest cost of an amortized loan with a fixed monthly repayment amount.",
         "uri": "/interest-rate-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Calories Burned Calculator",
+        "description": "Track your calorie burn with our free calorie calculator. Quickly estimate your calories burned based on activity and duration.",
+        "uri": "/calories-burned-calculator/",
         "image": "../images/icon-96.png"
     },
     {
@@ -504,6 +552,12 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Future Value Calculator",
+        "description": "Free future value calculator that uses the formula FV &#x3D; PV (1 + I/Y)n to find the future value of an investment with periodic deposits.",
+        "uri": "/future-value-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Adding Fractions Calculator",
         "description": "Adding fractions calculator to add and subtract proper and improper fractions. The calculator performs operations with up to nine given fractions.",
         "uri": "/adding-fractions-calculator/",
@@ -513,6 +567,12 @@ var allCalculators = [
         "title": "Decimal to Percent Calculator",
         "description": "Decimal to percent calculator converts decimals to percentages and whole numbers to percentages by multiplying by 100% or shifting the decimal point.",
         "uri": "/decimal-to-percent-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Period Calculator",
+        "description": "With our free period calculator, you can find out more about your menstrual cycle and accurately predict when your next period will be.",
+        "uri": "/period-calculator/",
         "image": "../images/icon-96.png"
     },
     {
@@ -531,6 +591,12 @@ var allCalculators = [
         "title": "Hex Calculator",
         "description": "Online hex calculator performs hex math operations and conversions. Hex addition, hex subtraction, hex multiplication, hex division became fast &amp; easy",
         "uri": "/hex-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Tank Volume Calculator",
+        "description": "The tank volume calculator finds the total volume of various tank shapes in gallons, liters, and cubic meters. It calculates the liquid volume of partially filled tanks.",
+        "uri": "/tank-volume-calculator/",
         "image": "../images/icon-96.png"
     },
     {
@@ -570,6 +636,12 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Cubic Yards Calculator",
+        "description": "Cubic yard calculator calculates cubic yards, feet, meters for landscape materials. Enter measurements in yards and feet and get volume conversions.",
+        "uri": "/cubic-yards-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Arithmetic and Geometric Sequence Calculator",
         "description": "Number sequence calculator to find the nth term of arithmetic, geometric, and Fibonacci sequences. The calculator also finds the sum of the terms of a sequence.",
         "uri": "/arithmetic-geometric-sequence-calculator/",
@@ -585,6 +657,18 @@ var allCalculators = [
         "title": "Distance Formula Calculator",
         "description": "Distance formula calculator finds the distance between two points on a plane based on their coordinates. The calculator uses the Euclidean distance formula.  ",
         "uri": "/distance-formula-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Prime Factorization Calculator",
+        "description": "The prime factorization calculator finds a number&#x27;s prime factors. The calculator demonstrates the prime factors tree and all factors of the number. ",
+        "uri": "/prime-factorization-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Business Loan Calculator",
+        "description": "Free business loan calculator that lets entrepreneurs estimate monthly payments, calculate interest on loans, and understand the total cost of the business loan.",
+        "uri": "/business-loan-calculator/",
         "image": "../images/icon-96.png"
     },
     {
@@ -636,6 +720,12 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Rental Property Calculator",
+        "description": "Free rental property calculator that uses the formula NPV &#x3D; [CF^1 / (1 + R^1)] - PC. A rental ROI calculator that helps analyze and compare investment rental properties.",
+        "uri": "/rental-property-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Time to Decimal Calculator",
         "description": "Time to decimal calculator can convert the time format from hh:mm:ss to decimal hours, minutes, and seconds. Learn to convert hours to decimal form.",
         "uri": "/time-to-decimal-calculator/",
@@ -684,9 +774,27 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Days Calculator",
+        "description": "The free days calculator makes it easy to figure out how many days it has been since some date. This day tracker can include or exclude weekends and holidays.",
+        "uri": "/days-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Percent to Fraction Calculator",
         "description": "The percent to fraction calculator converts the given percentages into fractions. If the percent value exceeds 100, the calculator performs percent to mixed number conversion.",
         "uri": "/percent-to-fraction-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Pythagorean Theorem Calculator",
+        "description": "Pythagorean theorem calculator finds the unknown side length of a right triangle. It also calculates angles, area, perimeter, and altitude to hypotenuse.",
+        "uri": "/pythagorean-theorem-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Retirement Calculator",
+        "description": "Retirement savings calculator that uses the formula FV &#x3D; PV (1 + R)^n to help users plan for retirement and calculate retirement income.",
+        "uri": "/retirement-calculator/",
         "image": "../images/icon-96.png"
     },
     {
@@ -699,6 +807,12 @@ var allCalculators = [
         "title": "Present Value Calculator",
         "description": "Unlock the true value of your investments with our easy-to-use present value calculator. Make smarter financial decisions now!",
         "uri": "/present-value-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Cylinder Volume Calculator",
+        "description": "This calculator can be used as a cylinder volume calculator and surface area calculator. It also finds the lateral, base, and top surface areas.",
+        "uri": "/cylinder-volume-calculator/",
         "image": "../images/icon-96.png"
     },
     {
@@ -720,9 +834,27 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Roofing Calculator",
+        "description": "Use a free roofing square footage calculator to determine your roof size and get the right amount of roofing shingles for your job. Estimate cost, time, and labor for DIY or contractors.",
+        "uri": "/roofing-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "FHA Loan Calculator",
+        "description": "The FHA loan calculator lets you plug in the numbers and calculate the monthly payments, interest, and total amount paid over time.",
+        "uri": "/fha-loan-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Annuity Calculator",
         "description": "Annuity calculator that uses the formula FV &#x3D; PV (1 + R)^n to help investors calculate annuity growth over time and make retirement decisions.",
         "uri": "/annuity-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Simple Investment Calculator",
+        "description": "Free investment calculator that uses the formula PV (1 + R)^n to help investors understand how to calculate investment returns and analyze investments.",
+        "uri": "/simple-investment-calculator/",
         "image": "../images/icon-96.png"
     },
     {

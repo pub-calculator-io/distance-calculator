@@ -104,16 +104,19 @@ window.output = {
 
 // check erroneous result of expression (or if it's not string - check itself)
 // usefull in cases when erroneous values of input fields are unknown
-window.calc = (expression) => {
+window.calc = (expression,scope) => {
 	let result = expression;
 	if(typeof expression == 'string'){
-		result = math.evaluate(expression); // can throw error as well
+		result = math.evaluate(expression,scope||{}); // can throw error as well
 	}
-	if(isNaN(result)||result==Infinity||result==-Infinity||result.im) {
+	if(isNaN(result)||result.im) {
 		throw new Error(`result is ${result}.`);
 	}
 	return result;
 };
+
+// allows to show accurate results with fixed precision/length (instead of using BigNumber) 
+window.format = number => math.format(number,{precision:7})
 
 window.input = {
 	box: $('#error-box'),
@@ -147,6 +150,9 @@ window.input = {
 		this.list.append(element);
 		if(last) this.processed = true;
 	},
+	// sometimes it's complicated to check input values
+	// so we're checking `calc` result for an erroneous result, show exception and return
+	// e.g.: try{calc(...);}catch(e){input.exception(field{s},e);return;} 
 	exception(inputId, message){
 		if(typeof message != 'string'){
 			let error = '';
@@ -167,10 +173,14 @@ window.input = {
 	get: function(elementId){
 		this.elementId = elementId;
 		let element = _(elementId);
-		this.value = element.value;
 		this.silent = false;
-		for (; element && element !== document; element = element.parentNode ) {
-			if(element.classList.contains('related-item-hidden')) this.silent = true;
+		if(element == null){
+			this.value = null;
+		} else {
+			this.value = element.value;
+			for (; element && element !== document; element = element.parentNode ) {
+				if(element.classList.contains('related-item-hidden')) this.silent = true;
+			}
 		}
 		return this;
 	},
@@ -278,6 +288,16 @@ window.input = {
 		if(this.value === '' || isNaN(Number(this.value))) this.error(this.elementId, errorText);
 		return this;
 	},
+	probability: function(errorText = `The "${this.elementId}" must be a number between 0 and 1.`){
+		if(this.value === '' || isNaN(Number(this.value)) || Number(this.value) < 0 || Number(this.value) > 1) 
+			this.error(this.elementId, errorText);
+		return this;
+	},
+	percentage: function(errorText = `The "${this.elementId}" must be a number between 0 and 100.`){
+		if(this.value === '' || isNaN(Number(this.value)) || Number(this.value) < 0 || Number(this.value) > 100) 
+			this.error(this.elementId, errorText);
+		return this;
+	},
 	numbers: function(errorText = `The ${this.elementId} must be a set of numbers.`){
 		if (this.value.filter(value => isNaN(Number(value))).length) this.error(this.elementId, errorText);
 		return this;
@@ -327,7 +347,7 @@ window.input = {
 		return !!this.value;
 	},
 	val: function(){
-		if(this.value === '') return null;
+		if(this.value === '' || this.value === null) return null;
 		return Number(this.value);
 	},
 	vals: function(){
