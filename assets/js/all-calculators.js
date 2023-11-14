@@ -192,6 +192,12 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Bra Size Calculator",
+        "description": "To get a bra that fits properly, it is vital to measure your bra size. This free calculator will tell you how to measure your breast size.",
+        "uri": "/bra-size-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "TDEE Calculator",
         "description": "The TDEE calculator provides an accurate estimate of your daily caloric expenditure using your BMR and several other personal characteristics. ",
         "uri": "/tdee-calculator/",
