@@ -48,6 +48,12 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Grade Calculator",
+        "description": "Our weighted grade calculator shows your average and what to earn for the final grade you want. A timesaver if you don&#x27;t know how to calculate grades!",
+        "uri": "/grade-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Basic Calculator",
         "description": "This online calculator performs basic mathematical operations like addition, subtraction, division, and multiplication. You can use the calculator to find percentages and taxes.",
         "uri": "/basic-calculator/",
@@ -240,6 +246,12 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Slope Calculator",
+        "description": "The slope calculator finds the slope of a line using the slope formula. It can also find point coordinates, incline angle, and length if the slope and one point are known.",
+        "uri": "/slope-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Variance Calculator",
         "description": "Given a discrete data set representing a sample or a population, the calculator calculates the mean, variance, and standard deviation and displays the workflow involved in the calculation.",
         "uri": "/variance-calculator/",
@@ -426,6 +438,12 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Z-Score Calculator",
+        "description": "The Z-Score Calculator helps to get the z-score of a normal distribution, convert between z-score and probability, and get the probability between 2 z-scores.",
+        "uri": "/z-score-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Permutation Calculator",
         "description": "Permutations calculator will help determine the number of ways to obtain an ordered subset of r elements from a set of n elements.",
         "uri": "/permutation-calculator/",
@@ -444,9 +462,21 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
+        "title": "Probability Calculator",
+        "description": "The probability calculator can find two events&#x27; probability and the normal distribution probability. Learn more about probability&#x27;s laws and calculations.",
+        "uri": "/probability-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
         "title": "Quartile Calculator",
         "description": "The quartile calculator helps to find the first(Q1), second(Q2), and third(Q3) quartiles, interquartile range, minimum and maximum values, and range of a data set.",
         "uri": "/quartile-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Right Triangle Calculator",
+        "description": "Right triangle calculator finds missing triangle measurements. It calculates side lengths, angles, perimeter, area, altitude-to-hypotenuse, inradius, and circumradius.",
+        "uri": "/right-triangle-calculator/",
         "image": "../images/icon-96.png"
     },
     {
@@ -483,6 +513,12 @@ var allCalculators = [
         "title": "Work Hours Calculator",
         "description": "Work hours calculator helps employees accurately calculate the number of hours worked each week with settings to account for breaks, hourly rounding, and military time. ",
         "uri": "/work-hours-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Sample Size Calculator",
+        "description": "This sample size calculator enables you to calculate the minimum sample size and the margin of error. Learn about sample size, the margin of error, &amp; confidence interval.",
+        "uri": "/sample-size-calculator/",
         "image": "../images/icon-96.png"
     },
     {
