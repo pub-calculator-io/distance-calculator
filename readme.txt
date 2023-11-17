@@ -1,6 +1,6 @@
 === Distance Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: distance formula calculator, calculate distance between points, point-to-point distance online, Pythagorean theorem calculator, coordinate distance calculator, find distance in 2D, Euclidean distance tool, math distance calculator, online distance solver, geometry distance computation
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0

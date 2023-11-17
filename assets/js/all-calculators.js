@@ -517,7 +517,7 @@ var allCalculators = [
     },
     {
         "title": "Work Hours Calculator",
-        "description": "Work hours calculator helps employees accurately calculate the number of hours worked each week with settings to account for breaks, hourly rounding, and military time. ",
+        "description": "Work hours calculator helps employees accurately calculate the number of hours worked each week with settings to account for breaks, hourly rounding, and military time.",
         "uri": "/work-hours-calculator/",
         "image": "../images/icon-96.png"
     },
@@ -528,7 +528,7 @@ var allCalculators = [
         "image": "../images/icon-96.png"
     },
     {
-        "title": "Fraction to percent calculator",
+        "title": "Fraction to Percent Calculator",
         "description": "Fraction to percent calculator converts proper and improper fractions to percentages. Calculator is using fraction-decimal-percent algorithm.",
         "uri": "/fraction-to-percent-calculator/",
         "image": "../images/icon-96.png"
@@ -723,6 +723,12 @@ var allCalculators = [
         "title": "Margin Calculator",
         "description": "Free margin calculator using the margin formula ((R - C) / R) × 100 to help businesses quickly calculate both margin and markup percentages based on cost and sale price.",
         "uri": "/margin-calculator/",
+        "image": "../images/icon-96.png"
+    },
+    {
+        "title": "Pace Calculator",
+        "description": "This free pace calculator computes pace, distance and time by setting values of two variables. You can use it for training purposes.",
+        "uri": "/pace-calculator/",
         "image": "../images/icon-96.png"
     },
     {
