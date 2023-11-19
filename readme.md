@@ -7,7 +7,7 @@ These calculators find the distance between two points on a 2D plane, in a 3D sp
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/distance-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /distance-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Distance Calculator](https://www.calculator.io/distance-calculator/ "Distance Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
