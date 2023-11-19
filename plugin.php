@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Distance Calculator by www.calculator.io
+Plugin Name: CI Distance calculator
 Plugin URI: https://www.calculator.io/distance-calculator/
 Description: These calculators find the distance between two points on a 2D plane, in a 3D space, as well as along the surface of the Earth with Lambert’s formulas.
 Version: 1.0.0
