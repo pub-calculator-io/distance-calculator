@@ -1,6 +1,6 @@
 # Distance Calculator Widget for WordPress
 
-These calculators find the distance between two points on a 2D plane, in a 3D space, as well as along the surface of the Earth with Lambert’s formulas.
+Calculate the exact distance between two points in a 2D plane, 3D space, or across the Earth's surface using our fast and accurate Distance Calculator.
 
 ![Distance Calculator Input Form](/assets/images/screenshot-1.png "Distance Calculator Input Form")
 
@@ -11,8 +11,8 @@ These calculators find the distance between two points on a 2D plane, in a 3D sp
 3. Activate the [Distance Calculator](https://www.calculator.io/distance-calculator/ "Distance Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_distance_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_distance_calculator(); ?>` to your template where you would like the Distance Calculator to appear.
+* Add the shortcode `[calcio_distance_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_distance_calculator(); ?>` to your template where you would like the Distance Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/

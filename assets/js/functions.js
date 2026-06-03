@@ -8,11 +8,9 @@ window.setValue = function (inputId, value, index){
 window.switcher = function(button, id, action) {
 	$('#' + id).value = button.value;
 	$('#' + id).onchange && $('#' + id).onchange(button.value);
-	$('#' + id + '-a')?.classList.remove("button-switcher--active");
-	$('#' + id + '-b')?.classList.remove("button-switcher--active");
-	$('#' + id + '-c')?.classList.remove("button-switcher--active");
-	$('#' + id + '-d')?.classList.remove("button-switcher--active");
-	$('#' + id + '-e')?.classList.remove("button-switcher--active");
+	for (let i = 0; i <= 20; i++) {
+		$(`#${id}-${i}`)?.classList.remove("button-switcher--active");
+	}
 	button.classList.add("button-switcher--active");
 	toggleRelatedInputs(button, id, action);
 }

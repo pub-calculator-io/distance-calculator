@@ -12,6 +12,7 @@ const setValue = (input, value, index) => {
 		setTab(index)
 	}
 	input.innerHTML = value
+	input.value = value
 }
 
 const setTab = (index) => {
@@ -39,6 +40,9 @@ DROPDOWN_WRAPPER.forEach(wrapper => {
 	const DROPDOWN_FIELD = wrapper.querySelector('.input-field')
 	const DROPDOWN_VALUE = wrapper.querySelector('.input-field__text')
 	const DROPDOWN_SELECTS = wrapper.querySelectorAll('.dropdown-select')
+	
+	const isSearch = wrapper.classList.contains('dropdown-wrapper--search')
+	
 	// DEFAULT TAB
 	setTab(0)
 
@@ -70,4 +74,17 @@ DROPDOWN_WRAPPER.forEach(wrapper => {
 			}
 		})
 	})
+
+	if(isSearch) {
+		DROPDOWN_VALUE.addEventListener('input', (e) => {
+			let value = e.target.value
+			DROPDOWN_SELECTS.forEach((select, index) => {
+				if(select.innerHTML.toLowerCase().includes(value.toLowerCase())) {
+					select.classList.remove('dropdown-select--hidden')
+				} else {
+					select.classList.add('dropdown-select--hidden')
+				}
+			})
+		})
+	}
 })
